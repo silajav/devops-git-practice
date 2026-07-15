@@ -1,0 +1,22 @@
+#this is a yaml practicefile.
+
+name: practice yaml
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  practice-build:
+    runs_on: ubuntu-latest
+
+    steps:
+      -uses: actions/checkout@v4
+
+      -name: show all files
+       run: ls
+
+      -name: show the present working folder
+       run: pwd
+
+
