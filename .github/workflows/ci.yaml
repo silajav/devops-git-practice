@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      -name: show all files
-       run: ls
+      - name: show all files
+        run: ls
 
-      -name: show the present working folder
-       run: pwd
+      - name: show the present working folder
+        run: pwd
 
 
